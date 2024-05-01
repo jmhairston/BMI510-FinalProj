@@ -1,0 +1,14 @@
+Type: Package
+Title: BMI 510 Final Project
+Version: 0.1
+Date: 2024-05-01
+Author: JaMor Hairston <jamor.hairston@emory.edu>
+Description: More about what it does (maybe more than one line)
+License: What license it uses
+Imports:
+    roxygen2,
+    devtools
+Suggests:
+    testthat
+Encoding: UTF-8
+LazyData: true
