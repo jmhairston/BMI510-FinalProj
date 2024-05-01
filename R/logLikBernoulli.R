@@ -9,7 +9,7 @@
 #' @return A list containing the maximum log-likelihood and the corresponding value of p.
 #' @export
 #' @examples
-#' data <- c(1, 0, 0, 0, 1, 1, 1)
+#' data = c(1, 0, 0, 0, 1, 1, 1)
 #' logLikBernoulli(data)
 logLikBernoulli = function(data) {
   p_values = seq(0, 1, by = 0.001)
