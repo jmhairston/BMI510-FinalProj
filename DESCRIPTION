@@ -3,12 +3,11 @@ Title: BMI 510 Final Project
 Version: 0.1
 Date: 2024-05-01
 Author: JaMor Hairston <jamor.hairston@emory.edu>
-Description: More about what it does (maybe more than one line)
-License: What license it uses
+Description: Last requirement for BMI 510 Spring 2024
+License: MIT
 Imports:
     roxygen2,
     devtools
 Suggests:
-    testthat
+    testthat (>= 3.0.3)
 Encoding: UTF-8
-LazyData: true
