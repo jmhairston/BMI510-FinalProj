@@ -1,14 +1,13 @@
 #' Plot Survival Curve
 #'
 #' This function takes numerical vectors for status and time, and plots the survival curve S(t).
-#' @param status Numeric vector indicating the status (usually 1 = event occurred, 0 = censored).
+#' @param status Numeric vector indicating the status (1 = event occurred, 0 = censored).
 #' @param time Numeric vector indicating the time to event or censorship.
 #' @importFrom survival Surv survfit
 #' @importFrom graphics plot
 #' @return The plot of the survival curve.
 #' @export
 #' @examples
-#' # Assuming `status` and `time` vectors are defined or loaded from external data
 #' survCurv(status, time)
 survCurv = function(status, time) {
   require(survival)
