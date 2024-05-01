@@ -1,6 +1,6 @@
 # BMI510-FinalProj
 
-`BMI510-FinalProj` is an R package that provides a suite of tools designed for statistical analysis and data processing. It includes functionalities for interacting with REDCap, performing survival and power analysis, standardizing data variables, and more. The package is designed to streamline data analysis workflows and enhance reproducibility.
+`BMI510-FinalProj` is an R package that completes the requirements for the BMI 510 course's final project, on behalf JaMor Hairston.
 
 ## Features
 
@@ -16,4 +16,4 @@ Install the development version from GitHub:
 
 ```R
 # install.packages("devtools")
-devtools::install_github("your-github/YourPackageName")
+devtools::install_github("jmhairston/BMI510-FinalProj")
