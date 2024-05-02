@@ -1,3 +1,4 @@
+Package: BMI510FinalProj
 Type: Package
 Title: BMI 510 Final Project
 Version: 0.1
@@ -11,3 +12,5 @@ Imports:
 Suggests:
     testthat (>= 3.0.3)
 Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
